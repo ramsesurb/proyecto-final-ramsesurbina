@@ -1,0 +1,217 @@
+*{margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+  }
+  $colormain:rgba(160, 111, 46, 0.87);
+  $colorfb: rgba(59, 69, 201, 0.959);
+  $coloryutube:rgb(151, 52, 52);
+  @import "index";
+  @import"header";
+  @import "proyectos";
+  @import "sobremi";
+  @import "noticias";
+  @import "media";
+ 
+
+  body{
+    background-color: whitesmoke;
+  }
+  .sectit2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 190%;
+    color:$colormain;
+    text-align: center;
+  }
+
+  a{
+    font-family: 'Dosis', sans-serif;
+  }
+
+  .pmi{
+    text-align: justify;
+  }
+  .sobremi{
+    padding:3% 4% 3% 4%
+  }
+  .imgpr{
+    width: 100%;
+  }
+.par{ 
+  font-family: 'DM Sans', sans-serif;;
+  text-align: justify; }
+  p{font-family: 'DM Sans', sans-serif;;
+    text-align: justify;}
+@media screen and (max-width: 574px){
+  .maintit{ 
+    font-family: 'Dosis', sans-serif;
+    font-weight:500;
+    font-size: 20rem;
+    color:$colormain;
+    text-shadow: 6px 5px 5px rgb(184, 181, 181);
+  } 
+  .sectit1  { 
+    font-family: 'Dosis', sans-serif;
+    font-weight:500;
+    font-size: 250%;
+    color:$colormain;
+    text-shadow: 6px 5px 5px rgb(184, 181, 181);
+  } 
+ 
+  //footer
+footer{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width: 100%;height: 10%;
+  background-color: black;
+    }
+    @mixin iconosredes($hover) {
+      color: white;
+      font-size: 200%;
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      margin-left: 1rem;
+      margin-right:1rem;
+      &:hover{
+        color: $hover;
+    }
+    }
+    
+    .bi-facebook{
+      @include iconosredes ($colorfb)
+    }
+    .bi-youtube{
+      @include iconosredes ($coloryutube)
+    }
+    .bi-instagram{
+      @include iconosredes ($colormain)
+    }
+    
+
+//proyectos
+.m1{ 
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.imgpr{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.ipro{
+  width: 100%;
+}
+}
+@media screen and (min-width: 575px){
+  .maintit { 
+    font-family: 'Dosis', sans-serif;
+    font-weight:500;
+    font-size: 300%;
+    color:$colormain;
+    text-shadow: 6px 5px 5px rgb(184, 181, 181);
+  } 
+  .sectit1  { 
+    font-family: 'Dosis', sans-serif;
+    font-weight:500;
+    font-size: 250%;
+    color:$colormain;
+    text-shadow: 6px 5px 5px rgb(184, 181, 181);
+  } 
+  //footer
+ footer{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width: 100%;height: 10%;
+  background-color: black;
+    }
+    @mixin iconosredes($hover) {
+      color: white;
+      font-size: 200%;
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      margin-left: 1rem;
+      margin-right:1rem;
+      &:hover{
+        color: $hover;
+    }
+    }
+    
+    .bi-facebook{
+      @include iconosredes ($colorfb)
+    }
+    .bi-youtube{
+      @include iconosredes ($coloryutube)
+    }
+    .bi-instagram{
+      @include iconosredes ($colormain)
+    }
+    
+
+/*proyectos*/
+.m1{ 
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.imgpr{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.ipro{
+  width: 100%;
+}
+}
+@media screen and (min-width: 1024px){
+  .maintit , .sectit1  { 
+    font-family: 'Dosis', sans-serif;
+    font-weight:500;
+    font-size: 300%;
+    color:$colormain;
+    text-shadow: 6px 5px 5px rgb(184, 181, 181);
+  } 
+  //footer
+footer{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width: 100%;height: 10%;
+  background-color: black;
+    }
+@mixin iconosredes($hover) {
+  color: white;
+  font-size: 200%;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-left: 1rem;
+  margin-right:1rem;
+  &:hover{
+    color: $hover;
+}
+}
+
+.bi-facebook{
+  @include iconosredes ($colorfb)
+}
+.bi-youtube{
+  @include iconosredes ($coloryutube)
+}
+.bi-instagram{
+  @include iconosredes ($colormain)
+}
+
+/*proyectos*/
+.med1{
+  overflow: hidden;
+  height: 29rem;
+}
+.med2, .med3 {
+  overflow: hidden;
+  height: 21rem;
+}
+.m1 , m2 {
+  padding-bottom: 5%;
+}
+.m2{
+  padding-left:13%;
+  padding-right:13%;
+}
+}

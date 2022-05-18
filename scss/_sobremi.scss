@@ -1,0 +1,37 @@
+@media screen and (max-width: 574px){
+    body{
+        .sectit1 {
+            text-align: center;
+    
+          }
+        .imgmi1 {
+          width: 100%;
+          padding: 10px;
+        }
+    }
+}
+@media screen and (min-width: 575px){
+    body{
+        .sectit1 {
+            text-align: center;
+
+          }
+        .imgmi1 {
+            width: 100%;
+            padding: 10px;
+          }
+    }
+}
+@media screen and (min-width: 1024px){
+    body{
+        .sectit1 {
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 0%;
+          }
+        .imgmi1 {
+            width: 100%;
+            padding: 10px;
+          }
+    }
+}

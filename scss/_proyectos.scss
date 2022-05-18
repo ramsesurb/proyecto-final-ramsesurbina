@@ -1,0 +1,62 @@
+@media screen and (max-width: 574px) {
+    body{
+        .m1 {
+            padding-left: 2%;
+            padding-right: 2%;
+          }
+        
+          .imgpr {
+            width: 100%;
+            padding-bottom: 20px;
+          }
+        
+          .ipro {
+            width: 100%;
+          }
+
+    }
+  }  
+  @media screen and (min-width: 575px) {
+    body{
+        .m1 {
+            padding-left: 2%;
+            padding-right: 2%;
+          }
+        
+          .imgpr {
+            width: 100%;
+            padding-bottom: 20px;
+          }
+        
+          .ipro {
+            width: 100%;
+          }
+    }  
+  }
+
+  
+  @media screen and (min-width: 1024px) {
+    body{
+        #titpro {
+            padding-bottom: 20px;
+        }
+        .med1 {
+            overflow: hidden;
+            height: 27rem;
+          }
+        
+          .med2, .med3 {
+            overflow: hidden;
+            height: 21rem;
+          }
+        
+          .m1, m2 {
+            padding-bottom: 5%;
+          }
+        
+          .m2 {
+            padding-left: 13%;
+            padding-right: 13%;
+          }
+    }
+  }
